@@ -19,6 +19,17 @@
 	-->
   </head>
   <body>    
+
+
+
+    <script>
+      const result = <?php echo shell_exec("python test.py 'parameter1'")?> ;
+      document.getElementById("site-title").innerHTML = result;
+    </script>
+
+
+
+
     <!-- Hero section -->
     <section id="hero" class="text-white tm-font-big tm-parallax">
       <!-- Navigation -->
@@ -49,7 +60,7 @@
       
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">Portfolio Recommender</h2>
+            <h2 id="site-title" class="tm-hero-title">Portfolio Recommender</h2>
             <p class="tm-hero-subtitle">
               This site will recommend a portfolio of S&P 500 stocks and other securities based on how you answer some questions.
               <br /><br />by Team Wall Street Bets
