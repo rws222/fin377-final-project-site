@@ -6,6 +6,29 @@ https://templatemo.com/tm-525-the-town
 
 */
 
+
+/*  MY STYLES  */
+
+.my_question {
+  width: 70vw;
+  max-width: 600px;
+}
+
+.my_border {
+  background-color: #ddd;
+  height: 4px;
+  margin-top: 70px;
+  width: 30vw;
+  min-width: 70px;
+}
+
+
+
+
+
+
+/* End of my styles */
+
 html {
   font-size: 18px;
 }
@@ -38,7 +61,7 @@ a:focus {
 }
 
 .tm-section-pad-top {
-  padding-top: 135px;
+  padding-top: 105px;
 }
 
 .tm-text-primary {

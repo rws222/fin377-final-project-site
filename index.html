@@ -34,13 +34,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#work">Risk Survey</a>
+                  <a class="nav-link tm-nav-link" href="#risk_survey">Risk Survey</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#work">Preferences</a>
+                  <a class="nav-link tm-nav-link" href="#preferences">Preferences</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#work">Results</a>
+                  <a class="nav-link tm-nav-link" href="#results">Results</a>
               </li>                    
             </ul>
           </div>        
@@ -58,36 +58,348 @@
       </div>
 
       <div class="tm-next tm-intro-next">
-        <a href="#work" class="text-center tm-down-arrow-link">
+        <a href="#risk_survey" class="text-center tm-down-arrow-link">
           <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
         </a>
       </div>      
     </section>
 
-    <!--First Section-->
 
-    <section id="work" class="tm-section-pad-top">
+
+
+
+
+
+    <!--Risk Survey-->
+
+    <section id="risk_survey" class="tm-section-pad-top">
       <div class="container tm-container-gallery">
         <div class="row">
           <div class="text-center col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4">Our Work</h2>
-              <p class="mx-auto tm-work-description">
-                "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
-                porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
-                orci luctus et ultrices posuere cubilia."
+              <h2 class="tm-text-primary tm-section-title mb-4">Risk Survey</h2>
+              <p class="mx-auto tm-work-description mb-5">
+                Answer the questions below to determine how much risk is right for you.
               </p>
           </div>            
         </div>
-        <div class="row">
-          <iframe id="content-frame" src="test.html" frameBorder="0" scrolling="no" style="width:100%; height:1000px; padding: 0; margin: 0 0 10px;">
-          </iframe>
-          <iframe id="my_plot" src="test_graph.html" style="width:100%; height:1000px; margin-bottom:20px;"></iframe>
+        <!--Question 1-->
+        <div class="container-lg flex-column d-flex justify-content-center align-items-center">
+          <div class="row my_question mb-4">
+            <div>
+              <div class="text-left">
+                <h3 class="tm-text-secondary">What is your favorite color?</h3>
+              </div>
+              <div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">Red</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">Yellow</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                  <label class="form-check-label" for="exampleRadios3">Green</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                  <label class="form-check-label" for="exampleRadios4">Blue</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Question 2-->
+          <div class="row my_question mb-4">
+            <div>
+              <div class="text-left">
+                <h3 class="tm-text-secondary">What is the capital of Pennsylvania?</h3>
+              </div>
+              <div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">Philadelphia</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">Pittsburgh</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                  <label class="form-check-label" for="exampleRadios3">Harrisburg</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                  <label class="form-check-label" for="exampleRadios4">Bethlehem</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Question 3-->
+          <div class="row my_question mb-4">
+            <div>
+              <div class="text-left">
+                <h3 class="tm-text-secondary">How's life?</h3>
+              </div>
+              <div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">Great!</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">Good</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                  <label class="form-check-label" for="exampleRadios3">Okay</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                  <label class="form-check-label" for="exampleRadios4">It's rough out here</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my_question my_border"></div>
         </div>
       </div> 
     </section>
 
 
+
+
+
+    <!--Preferences-->
+
+    <section id="preferences" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+            <h2 class="tm-text-primary tm-section-title mb-4">Preferences</h2>
+            <p class="mx-auto tm-work-description mb-5">
+              Enter your portfolio preferences below.
+            </p>
+        </div>            
+      </div>
+      <!--Question 1-->
+      <div class="container-lg flex-column d-flex justify-content-center align-items-center">
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">What is your favorite color?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Red</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Yellow</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Green</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">Blue</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Question 2-->
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">What is the capital of Pennsylvania?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Philadelphia</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Pittsburgh</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Harrisburg</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">Bethlehem</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Question 3-->
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">How's life?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Great!</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Good</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Okay</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">It's rough out here</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my_question my_border"></div>
+      </div>
+    </div> 
+  </section>
+
+
+
+
+
+
+
+  <!--Results-->
+
+  <section id="results" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+            <h2 class="tm-text-primary tm-section-title mb-4">Results</h2>
+            <p class="mx-auto tm-work-description mb-5">
+              Answer the questions below to determine how much risk is right for you.
+            </p>
+        </div>            
+      </div>
+      <!--Question 1-->
+      <div class="container-lg flex-column d-flex justify-content-center align-items-center">
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">What is your favorite color?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Red</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Yellow</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Green</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">Blue</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Question 2-->
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">What is the capital of Pennsylvania?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Philadelphia</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Pittsburgh</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Harrisburg</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">Bethlehem</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Question 3-->
+        <div class="row my_question mb-4">
+          <div>
+            <div class="text-left">
+              <h3 class="tm-text-secondary">How's life?</h3>
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Great!</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Good</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Okay</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">It's rough out here</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my_question my_border" style="background-color: #fff"></div>
+      </div>
+    </div> 
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 <!--
+
+
+        
+        <div class="row">
+          <iframe id="content-frame" src="test.html" frameBorder="0" scrolling="no" style="width:100%; height:1000px; padding: 0; margin: 0 0 10px;">
+          </iframe>
+          <iframe id="my_plot" src="test_graph.html" style="width:100%; height:1000px; margin-bottom:20px;"></iframe>
+        </div>
+
+
+
+
+
+
+
     <section id="introduction" class="tm-section-pad-top">
       <div class="container">
         <div class="row">
@@ -231,8 +543,26 @@
       </div>
     </section>
   -->
+
+
+
+
+
+<!-- Contact -->
+    <section id="contact" class="tm-parallax-2">
+    </section>
+
+
+
+
+
+
+
+
+
+
     <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top tm-parallax-2">
+    <!--<section id="contact" class="tm-section-pad-top tm-parallax-2">
       <div class="container tm-container-contact">
         <div class="row">
             <div class="col-12">
@@ -281,7 +611,7 @@
             - Design: <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
           </p>
         </footer>
-    </section>
+    </section>-->
     <script src="js/jquery-1.9.1.min.js"></script>     
     <script src="slick/slick.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
